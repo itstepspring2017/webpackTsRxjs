@@ -1,0 +1,20 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "webpack -w",
+    "start": "webpack-dev-server --hot",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "rxjs": "^6.1.0",
+    "rxjs-compat": "^6.1.0",
+    "ts-loader": "^4.0.1",
+    "typescript": "^2.7.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
